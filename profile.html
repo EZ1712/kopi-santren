@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOPI SANTREN</title>
+    <link rel="icon" type="image/icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <img style="float: left;"  src="asset/icon/icon white.png" class="icon">
+                <li style="float: left;"><a class="a2" href="">KOPI SANTREN</a></li>
+                <li><a class="a2 e" id="monitor"><i class="fa-solid fa-circle-play play"></i><i class="fa-solid fa-circle-pause pause"></i></a></li>
+                <li><a class="a2" href="">PROFILE</a></li>
+                <li><a class="a2" href="index.html">HOMEPAGE</a></li>
+                <audio id="audio" src="asset/my music.mp3" autoplay loop></audio>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <div class="section-6">
+                <h1 class="title" data-aos="zoom-in">PROFILE / GALLERY</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <div>
+                    <h1 class="section-4">PROFILE</h1>
+                </div>
+                <div class="frame-sub-profile">
+                    <div class="sub-profile" onclick="changeProfile1()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/sochi.png"> 
+                        <p class="title-sub-profile">MAS SOCHI</p>
+                    </div>
+                    <div class="sub-profile" onclick="changeProfile2()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/EZ.png"> 
+                        <p class="title-sub-profile">ENZA</p>
+                    </div>
+                    <div class="sub-profile" onclick="changeProfile3()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/fardan.png"> 
+                        <p class="title-sub-profile">FARDAN</p>
+                    </div>
+                    <div class="sub-profile" onclick="changeProfile4()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/asrof.png"> 
+                        <p class="title-sub-profile">ASYROF</p>
+                    </div>
+                    <div class="sub-profile" onclick="changeProfile5()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/anas.png"> 
+                        <p class="title-sub-profile">ANAS</p>
+                    </div>
+                    <div class="sub-profile" onclick="changeProfile6()" data-aos="flip-up">
+                        <img class="img-sub-profile" src="asset/profile/sub/seno.png"> 
+                        <p class="title-sub-profile">SENO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="profile">
+                <div class="frame-profile">
+                    <div class="">
+                        <div>
+                            <img id="imgProfile" class="img-profile" src="asset/profile/sochi-profile.png" data-aos="fade-up">
+                        </div>
+                    </div>
+                    <div class="frame-description-profile">
+                        <div class="frame-name" data-aos="fade-right">
+                            <h1 id="name" class="name">SHOCHICHUL MUSLIM</h1>
+                            <div>
+                                <p id="role" class="role">TRAINER</p>
+                            </div>
+                        </div>
+                        <div class="description-profile" data-aos="fade-right" data-aos-duration="3000">
+                            <p id="quotesProfile" class="quotes-profile">"If you do something you get the best thing, if you do nothing you get the worsting"</p>
+                            <div id="socialMedia" class="social-media-frame">
+                                <a id="instagram" href="https://www.instagram.com/sochichulmuslim/?__pwa=1" class="social-media"><i class="fa-brands fa-instagram"></i></a>
+                                <a id="facebook" href="" class="social-media"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a id="x" href="" class="social-media"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a id="discord" href="" class="social-media"><i class="fa-brands fa-discord"></i></a>
+                                <a id="pixiv" href="" class="social-media"><i class="fa-brands fa-pixiv"></i></a>
+                                <a id="github" href="" class="social-media"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                   
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1 class="section-4">GALLERY</h1>
+            <p class="memories">Memories of baristas in year 2024 - 2025</p>
+        </div>
+        <div>
+            <div class="galeri">
+                <a class="z1" href="asset/galeri/img1.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img1.jpeg"></a>
+                <a class="z1" href="asset/galeri/img2.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img2.jpeg"></a>
+                <a class="z1" href="asset/galeri/img3.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img3.jpeg"></a>
+                <a class="z1" href="asset/galeri/img4.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img4.jpeg"></a>
+                <a class="z1" href="asset/galeri/img5.jpeg"data-aos="fade-up"><img class="img" src="asset/galeri/img5.jpeg"></a>
+                <a class="z1" href="asset/galeri/img6.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img6.jpeg"></a>
+                <a class="z1" href="asset/galeri/img8.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini8.png"></a>
+                <a class="z1" href="asset/galeri/img9.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini9.png"></a>
+                <a class="z1" href="asset/galeri/img10.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini10.png"></a>
+                <a class="z1" href="asset/galeri/img11.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini11.png"></a>
+                <a class="z1" href="asset/galeri/img12.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini12.png"></a>
+                <a class="z1" href="asset/galeri/img13.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini13.png"></a>
+                <a class="z1" href="asset/galeri/img14.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini14.png"></a>
+                <a class="z1" href="asset/galeri/img15.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img15.jpeg"></a>
+                <a class="z1" href="asset/galeri/img16.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini16.png"></a>
+                <a class="z1" href="asset/galeri/img17.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img17.jpeg"></a>
+                <a class="z1" href="asset/galeri/img18.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img18.jpeg"></a>
+                <a class="z1" href="asset/galeri/img19.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img19.jpeg"></a>
+                <a class="z1" href="asset/galeri/img21.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini21.png"></a>
+                <a class="z1" href="asset/galeri/img22.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img22.jpeg"></a>
+                <a class="z1" href="asset/galeri/img23.jpeg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini23.png"></a>
+                <a class="z1" href="asset/galeri/img-24.jpg" data-aos="fade-up"><img class="img" src="asset/galeri/img-mini24.png"></a>
+        </div>
+                    
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer">
+            <div class="sub-footer">
+                <div class="sub2-footer">
+                    <P class="description center">thanks for visiting</P>         
+                </div>
+                <img onclick="up()" id="arrow-up-up" src="asset/icon/arrow up doble.png" >
+            </div>
+            <div class="bg-footer" >
+                <div class="sub3-footer">
+                    <div class="sub4-footer" data-aos="fade-up">
+                        <div class="frame" >
+                            <img class="qr-code" src="asset/qr-code.png">
+                            <h1 class="code">KOPI SANTREN</h1>
+                        </div>
+                        
+                        <p class="d-code">bantu sebarkan web ini dengan membagikan QR CODE ini</p>
+                    </div>
+                    <div class="sub5-footer">
+                        <img class="img2-footer" src="asset/icon/LGGO KOPI SANTREN font putih.png" data-aos="fade-up">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

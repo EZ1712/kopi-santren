@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOPI SANTREN</title>
+    <link rel="icon" type="image/icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <img style="float: left;"  src="asset/icon/icon white.png" class="icon">
+                <li style="float: left;"><a class="a2" href="">KOPI SANTREN</a></li>
+                <li><a class="a2 e" id="monitor"><i class="fa-solid fa-circle-play play"></i><i class="fa-solid fa-circle-pause pause"></i></a></li>
+                <li><a class="a2" href="profile.html">PROFILE</a></li>
+                <li><a class="a2" href="">HOMEPAGE</a></li>
+                <audio id="audio" src="asset/my music.mp3" autoplay loop></audio>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <div id="#home" class="section-1">
+                <img src="asset/icon/LGGO KOPI SANTREN tulisan putih.png" class="img-section1" data-aos="zoom-in">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-quotes">
+            <div class="arrow-left" onclick="">
+                <img src="asset/icon/arrow left.png">
+            </div>
+            <div>
+                <p id="quotes">CHILL YOUR MIND</p>
+            </div>
+            <div class="arrow-right" onclick="">
+                <img src="asset/icon/arrow right.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-2 padding ">
+            <img src="asset/kopi santren.jpeg" class="img-section" data-aos="fade-right">
+            <div class="sub">
+                <h1 class="title" data-aos="fade-right" >KOPI SANTREN</h1>
+                <p class="description" data-aos="fade-right"><b>Kopi Santren</b> adalah produk yang dibuat oleh ekskul barista yang berada di pondok Mufidah Santi Asromo. Tidak hanya membuat kopi, tapi juga membuat berbagai minuman seperti teh atau minuman manis lainnya</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-3 padding">     
+            <div class="sub">  
+                <h1 class="title end" data-aos="fade-up" >BARISTA</h1>
+                <p class="description end" data-aos="fade-up" ><b>Pramukopi</b> atau biasa disebut <b>Barista</b> adalah sebutan untuk seseorang yang pekerjaanya membuat dan menyajikan kopi kepada pelanggan. kata "barista" berasal dari kata italia yang berarti "pelayan bar"</p>
+            </div>
+            <img src="asset/barista.jpeg" class="img-section" data-aos="fade-up">
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="section-4">
+                <h1 class="title">COFFE BEANS</h1>
+            </div>
+            <div class="sub-section4">
+                <div class="sub2-section4">
+                    <div class="card" data-aos="flip-left">
+                        <img class="img-card" src="asset/arabika.png">
+                        <h1 class="title card2">Arabika</h1>
+                        <p class="description card3">Kopi <b>Arabika</b> merupakan tipe kopi tradisional dengan cita rasa terbaik. sebagian besar kopi yang ada dibuat dengan menggunakan biji kopi jenis ini</p>
+                    </div>
+                    <div class="card" data-aos="flip-right">
+                        <img class="img-card" src="asset/robusta.png">
+                        <h1 class="title card2">Robusta</h1>
+                        <p class="description card3">Kopi <b>Robusta</b> pertama kali ditemukan di kango pada tahun 1898. kopi <b>Robutsa</b> dapat dikatakan sebagai kopi kelas 2, karena rasanya yang lebih pahit, sedikit asam, dan mengandung kafeina dalam kadar yang jauh lebih banyak</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-4" style="padding: 40px;">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="section-5">
+                <div class="sub-section5">
+                    <div class="sub2-section5">
+                        <h1 class="title tsc5" data-aos="zoom-in-right">PICTURE</h1>
+                    </div>
+                    <div class="c1" >
+                        <div class="container-picture" data-aos="zoom-out-right">
+                            <div class="sub3-section5">
+                                <img id="picture" src="asset/homepage-img.jpeg" >
+                                <div class="sub-picture">
+                                    <img onclick="changeImage()" src="asset/homepage-img2.jpeg" class="sub2-picture"> 
+                                    <img onclick="changeImage2()" src="asset/homepage-img3.jpeg" class="sub2-picture"> 
+                                    <img onclick="changeImage3()" src="asset/homepage-img.jpeg" class="sub2-picture"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c2">
+                            <h1 id="title" class="title sc5" data-aos="zoom-in">STUDI BANDING</h1>
+                            <p id="description" class="description sc5" data-aos="zoom-in">Ini adalah ketika kami sedang berkunjung ke cafe yang terkenal dengan kopi yang berkualitas tinggi dengan suasana yang nyaman. selama kunjungan kami mempelajari teknik pembuatan kopi yang baru dan berbagi pengalaman dengan barista lokal</p>
+                            <p class="description sc5"> Untuk melihat lebih banyak bisa tekan tombol di sini</p>
+                            <div>
+                                <button>GALERI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="sub-footer">
+                <div class="sub2-footer">
+                    <P class="description center">thanks for visiting</P>
+                </div> 
+                <img onclick="up()" id="arrow-up-up" src="asset/icon/arrow up doble.png" >
+            </div>
+            <div class="bg-footer" >
+                <div class="sub3-footer">
+                    <div class="sub4-footer" data-aos="fade-up">
+                        <div class="frame" >
+                            <img class="qr-code" src="asset/qr-code.png">
+                            <h1 class="code">KOPI SANTREN</h1>
+                        </div>
+                        
+                        <p class="d-code" >bantu sebarkan web ini dengan membagikan QR CODE ini</p>
+                    </div>
+                    <div class="sub5-footer">
+                        <img class="img2-footer" src="asset/icon/LGGO KOPI SANTREN font putih.png" data-aos="fade-up">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
