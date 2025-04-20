@@ -200,3 +200,7 @@ function changeProfile6() {
     pixiv.style.display = "none"
     github.style.display = "none"
 }
+
+document.getElementById("galery").onclick = function() {
+    window.location.href = "profile.html"
+}
