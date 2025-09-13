@@ -1,3 +1,3 @@
 # barista-web
 
-# ini adalah web dari ekskul barista
+ini adalah web dari ekskul barista
